@@ -1,0 +1,16 @@
+{
+  "name": "doc-to-md",
+  "version": "1.0.0",
+  "description": "这是一个用于将网页文档转换为 Markdown 格式的 Node.js 脚本。它会将网页上的所有文本和图片下载下来，并将文本转换为 Markdown 格式。",
+  "main": "index.js",
+  "scripts": {
+    "start": "node DocToMD.js"
+  },
+  "author": "Muliminty",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.5",
+    "turndown": "^7.1.2",
+    "cheerio": "^1.0.0-rc.12"
+  }
+}
